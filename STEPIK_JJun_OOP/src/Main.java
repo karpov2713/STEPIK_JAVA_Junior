@@ -10,27 +10,33 @@ public class Main {
 //        box2.length = 20;
 //        box2.width = 20;
 //
-//        double volume = box1.height * box1.length * box1.width;
-//        System.out.println(volume);
-//        double volume2 = box2.height * box2.width * box2.length;
-//        System.out.println(volume2);
+//        box1.showVolume();
+//        box2.showVolume();
 
-        Person john = new Person();
-        john.name = "John";
-        john.age = 22;
-        john.weight = 75;
+//        Person john = new Person();
+//        john.name = "John";
+//        john.age = 22;
+//        john.weight = 75;
+//
+//        Person ann = new Person();
+//        ann.name = "Anya";
+//        ann.age = 15;
+//        ann.weight = 55;
+//
+//        Person dima = new Person();
+//        dima.name = "Dima";
+//        dima.age = 56;
+//        dima.weight = 89;
+//
+//        double summAge = john.age + ann.age + dima.age;
+//        System.out.println(summAge / 3);
 
-        Person ann = new Person();
-        ann.name = "Anya";
-        ann.age = 15;
-        ann.weight = 55;
-
-        Person dima = new Person();
-        dima.name = "Dima";
-        dima.age = 56;
-        dima.weight = 89;
-
-        double summAge = john.age + ann.age + dima.age;
-        System.out.println(summAge / 3);
+        Dog dog = new Dog();
+        dog.name = "Tuzik";
+        dog.breed = "Taxa";
+        dog.weight = 5;
+        dog.speed = 10;
+        //System.out.println(dog.getInfo());
+        dog.run();
     }
 }
