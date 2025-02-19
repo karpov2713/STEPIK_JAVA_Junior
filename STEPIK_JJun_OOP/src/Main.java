@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 //        Box box1 = new Box();
-//        box1.setDimens(10, 10, 10);
-//        Box box2 = new Box();
-//        box2.setDimens(20, 20, 20);
+//        Box box2 = new Box(20, 20, 20);
 //        box1.showVolume();
 //        box2.showVolume();
 
-        Rectangle rect = new Rectangle();
-        rect.setDimens(10, 5);
-        System.out.println(rect.rectArea());
+//        Rectangle rect = new Rectangle();
+//        rect.setDimens(10, 5);
+//        System.out.println(rect.rectArea());
 
 //        Person john = new Person();
 //        john.name = "John";
@@ -39,5 +37,8 @@ public class Main {
 
 //        Test test = new Test();
 //        System.out.println(test.square(20));
+
+        Employee employee = new Employee("John", "Manager", 50000);
+        employee.showInfo();
     }
 }
