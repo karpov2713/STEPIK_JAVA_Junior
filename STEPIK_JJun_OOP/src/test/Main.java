@@ -1,3 +1,7 @@
+package test;
+
+import examples.Person;
+
 public class Main {
     public static void main(String[] args) {
 //        Box box1 = new Box();
@@ -68,5 +72,9 @@ public class Main {
 
 //        Monster monster = new Monster(5);
 //        monster.voice(10, "Brrrrrrrr......");
+
+        Person person = new Person("John", 25);
+        person.setAge(40);
+        System.out.println("Name: " + person.getName() + " Age: " + person.getAge());
     }
 }
