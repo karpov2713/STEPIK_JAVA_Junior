@@ -1,5 +1,6 @@
 package test;
 
+import examples.MyMath;
 import examples.Person;
 
 public class Main {
@@ -73,8 +74,15 @@ public class Main {
 //        Monster monster = new Monster(5);
 //        monster.voice(10, "Brrrrrrrr......");
 
-        Person person = new Person("John", 25);
-        person.setAge(40);
-        System.out.println("Name: " + person.getName() + " Age: " + person.getAge());
+//        Person person = new Person("John", 25);
+//        person.setAge(40);
+//        System.out.println("Name: " + person.getName() + " Age: " + person.getAge());
+
+//        System.out.println(MyMath.length(10));
+//        System.out.println(MyMath.area(10));
+//        System.out.println(MyMath.length(10));
+
+        System.out.println(MyMath.sum(1, 2, 3, 4, 5, 6));
+
     }
 }
