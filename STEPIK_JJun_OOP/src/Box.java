@@ -3,7 +3,7 @@ public class Box {
     double width;
     double height;
 
-    Box() {
+    public Box() {
         this.length = 10;
         this.width = 10;
         this.height = 10;
@@ -19,6 +19,18 @@ public class Box {
         this.length = length;
         this.width = width;
         this.height = height;
+    }
+
+    void compare(Box another){
+        double currentVolume = getVolume();
+        double anotherVolume = getVolume();
+        if(currentVolume > anotherVolume){
+            System.out.println("Current > Another");
+        } else if (currentVolume < anotherVolume) {
+            System.out.println("Current < Another");
+        } else {
+            System.out.println("Current == Another");
+        }
     }
 
     double getVolume() {

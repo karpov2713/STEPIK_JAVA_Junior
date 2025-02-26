@@ -32,13 +32,19 @@ public class Main {
 //        dog.breed = "Taxa";
 //        dog.weight = 5;
 //        dog.speed = 10;
-//        //System.out.println(dog.getInfo());
 //        dog.run();
+//        System.out.println(dog.getInfo());
 
 //        Test test = new Test();
 //        System.out.println(test.square(20));
 
-        Employee employee = new Employee("John", "Manager", 50000);
-        employee.showInfo();
+//        Employee employee = new Employee("John", "Manager", 50000);
+//        employee.showInfo();
+
+        // Math math = new Math();
+        System.out.println(Math.multiple(10, 5));
+        System.out.println(Math.multiple(10.8, 5.2));
+        System.out.println(Math.multiple(5));
+
     }
 }
