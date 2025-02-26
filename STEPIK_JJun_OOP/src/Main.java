@@ -4,6 +4,9 @@ public class Main {
 //        Box box2 = new Box(20, 20, 20);
 //        box1.showVolume();
 //        box2.showVolume();
+//
+//        Box box = new Box(30);
+//        box.showVolume();
 
 //        Rectangle rect = new Rectangle();
 //        rect.setDimens(10, 5);
@@ -41,10 +44,13 @@ public class Main {
 //        Employee employee = new Employee("John", "Manager", 50000);
 //        employee.showInfo();
 
-        // Math math = new Math();
-        System.out.println(Math.multiple(10, 5));
-        System.out.println(Math.multiple(10.8, 5.2));
-        System.out.println(Math.multiple(5));
+//        Math math = new Math();
+//        System.out.println(MyMath.multiple(10, 5));
+//        System.out.println(MyMath.multiple(10.8, 5.2));
+//        System.out.println(MyMath.multiple(5));
+//        System.out.println(Math.sqrt(36));
 
+        Monster monster = new Monster(5);
+        monster.voice(10, "Brrrrrrrr......");
     }
 }
