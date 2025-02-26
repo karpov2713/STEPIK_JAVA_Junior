@@ -8,6 +8,22 @@ public class Main {
 //        Box box = new Box(30);
 //        box.showVolume();
 
+//        Box current = new Box(10);
+//        Box another = current.copy();
+//        current.compare(another);
+//        current.showVolume();
+//        another.showVolume();
+//        System.out.println();
+//
+//        another.setDimens(20, 20, 20);
+//        current.showVolume();
+//        another.showVolume();
+//        System.out.println();
+//
+//        another = current.increase();
+//        current.showVolume();
+//        another.showVolume();
+
 //        Rectangle rect = new Rectangle();
 //        rect.setDimens(10, 5);
 //        System.out.println(rect.rectArea());
@@ -50,7 +66,7 @@ public class Main {
 //        System.out.println(MyMath.multiple(5));
 //        System.out.println(Math.sqrt(36));
 
-        Monster monster = new Monster(5);
-        monster.voice(10, "Brrrrrrrr......");
+//        Monster monster = new Monster(5);
+//        monster.voice(10, "Brrrrrrrr......");
     }
 }
