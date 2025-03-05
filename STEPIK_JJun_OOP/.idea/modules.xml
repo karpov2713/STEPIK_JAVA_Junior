@@ -4,9 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/EXCEPTIONS/EXCEPTIONS.iml" filepath="$PROJECT_DIR$/EXCEPTIONS/EXCEPTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXCEPTIONS/Exceptions_HW/Exceptions_HW.iml" filepath="$PROJECT_DIR$/EXCEPTIONS/Exceptions_HW/Exceptions_HW.iml" />
       <module fileurl="file://$PROJECT_DIR$/INHERITANCE/INHERITANCE_1.iml" filepath="$PROJECT_DIR$/INHERITANCE/INHERITANCE_1.iml" />
       <module fileurl="file://$PROJECT_DIR$/INTERFACES/INTERFACES.iml" filepath="$PROJECT_DIR$/INTERFACES/INTERFACES.iml" />
       <module fileurl="file://$PROJECT_DIR$/STEPIK_JJun_OOP.iml" filepath="$PROJECT_DIR$/STEPIK_JJun_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/STRING_format/STRING_format.iml" filepath="$PROJECT_DIR$/STRING_format/STRING_format.iml" />
     </modules>
   </component>
 </project>
