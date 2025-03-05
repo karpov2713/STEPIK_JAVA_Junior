@@ -1,7 +1,6 @@
-public class Director implements Worker {
+public class Director{
 
-    @Override
-    public void work() {
-        System.out.println("Директор работает");
+    public void force(Worker worker){
+        worker.work();
     }
 }
