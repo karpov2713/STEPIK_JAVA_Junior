@@ -3,7 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
-      <module fileurl="file://$PROJECT_DIR$/INHERITANCE_1/INHERITANCE_1.iml" filepath="$PROJECT_DIR$/INHERITANCE_1/INHERITANCE_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INHERITANCE/INHERITANCE_1.iml" filepath="$PROJECT_DIR$/INHERITANCE/INHERITANCE_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INTERFACES/INTERFACES.iml" filepath="$PROJECT_DIR$/INTERFACES/INTERFACES.iml" />
       <module fileurl="file://$PROJECT_DIR$/STEPIK_JJun_OOP.iml" filepath="$PROJECT_DIR$/STEPIK_JJun_OOP.iml" />
     </modules>
   </component>
