@@ -1,53 +1,17 @@
+import java.util.ArrayList;
+import java.util.HashSet;
+
 public class Main {
     public static void main(String[] args) {
-        MyArrayList employees = getEmployees();
-        employees.add("James");
-
-        employees.remove("Emma");
-
-        for (int i = 0; i < employees.getSize(); i++) {
-            System.out.println(employees.get(i));
+        HashSet<String> names = getEmployees();
+        for (String s : names) {
+            System.out.println(s);
         }
-
-//        String[] newArray = new String[employees.length + 1];
-//        for (int i = 0; i < employees.length; i++) {
-//            newArray[i] = employees[i];
-//        }
-//        for (String employee : employees) {
-//            System.out.println(employee);
-//        }
-//        System.out.println();
-//
-//        // Добавляем James
-//        newArray[newArray.length - 1] = "James";
-//        employees = newArray;
-//        for (String employee : employees) {
-//            System.out.println(employee);
-//        }
-//        System.out.println();
-//
-//        employees[0] = null;
-//        for (String employee : employees) {
-//            System.out.println(employee);
-//        }
-//        System.out.println();
-//
-//        String[] newestArray = new String[employees.length - 1];
-//        for (int i = 0, j = 0; i < employees.length; i++) {
-//            String employee = employees[i];
-//            if (employee != null) {
-//                newestArray[j] = employee;
-//                j++;
-//            }
-//        }
-//        employees = newestArray;
-//        for (String employee : employees) {
-//            System.out.println(employee);
-//        }
     }
 
-    private static MyArrayList getEmployees() {
-        MyArrayList employees = new MyArrayList();
+    private static HashSet<String> getEmployees() {
+        HashSet<String> employees = new HashSet<>();
+        employees.add("John");
         employees.add("John");
         employees.add("Olivia");
         employees.add("Emma");
